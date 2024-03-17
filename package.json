@@ -1,0 +1,39 @@
+{
+  "name": "osrm-adapter",
+  "version": "1.0.0",
+  "author": "zSkyTikz",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/app.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-location": "^3.433.0",
+    "@elysiajs/cors": "^0.7.2",
+    "@googlemaps/google-maps-services-js": "^3.3.41",
+    "@mapbox/polyline": "^1.2.1",
+    "agentkeepalive": "^4.5.0",
+    "axios": "^1.5.1",
+    "elysia": "latest",
+    "elysia-helmet": "^1.0.1",
+    "lodash": "^4.17.21",
+    "pino": "^8.15.6"
+  },
+  "devDependencies": {
+    "@elysiajs/eden": "^0.8.1",
+    "@types/bun": "^1.0.4",
+    "@types/lodash": "^4.14.200",
+    "@types/mapbox__polyline": "^1.0.5",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "pino-pretty": "^10.2.3",
+    "prettier": "^3.0.3"
+  },
+  "module": "src/index.js"
+}
