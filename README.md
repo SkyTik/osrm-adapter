@@ -1,7 +1,9 @@
 # Elysia framework with Bun runtime
 
 ## Introduction
-A mini project that map response from multiple Directions API to OSRM Response
+A mini project that maps response from multiple Directions API to OSRM Response
+Using Elysia framework with Bun runtime, ship with test case using @elysia/eden
+
 
 Available providers: AWS, Google, MapBox
 
